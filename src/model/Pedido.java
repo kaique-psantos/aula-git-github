@@ -7,6 +7,7 @@ import model.Produto;
 public class Pedido {
     Cliente cliente;
     ArrayList<Produto> produtos;
+    String Teste;
 
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
